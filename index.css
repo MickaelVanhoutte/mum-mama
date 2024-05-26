@@ -980,6 +980,28 @@ body {
     top: 10%;
     opacity: 0;
     animation: fadein 3s forwards;
+    font-size: 36px;
+        mix-blend-mode: difference;
+}
+.text {
+  color: white;
+    position: absolute;
+    z-index: 2;
+    top: 30%;
+    opacity: 0;
+    animation: fadein 3s forwards;
+    font-size: 22px;
+        mix-blend-mode: difference;
+}
+.text2 {
+  color: white;
+    position: absolute;
+    z-index: 2;
+    top: 40%;
+    opacity: 0;
+    animation: fadein 3s forwards;
+    font-size: 22px;
+    mix-blend-mode: difference;
 }
 @keyframes fadein {
   100% {
